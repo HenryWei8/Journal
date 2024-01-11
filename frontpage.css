@@ -10,10 +10,8 @@ body {
   color: rgb(0, 0, 0);
   font-weight: bold;
 
-  position: absolute;
-  top: 80px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url(images/img2.png);
   background-repeat: no-repeat;
   background-size: cover;

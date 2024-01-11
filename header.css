@@ -28,7 +28,6 @@ html {
 
 .header-logo img {
   height: 100%;
-  border: solid 4px;
 }
 
 /* buttons */
@@ -57,6 +56,10 @@ html {
 /* search bar */
 .search-bar {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  width: 300px;
 }
 
 .register {
@@ -90,12 +93,9 @@ html {
 }
 
 #content {
-  position: absolute;
   height: 5px;
   width: 0px;
   margin-left: 0px;
-  top: 50%;
-  right: 2%;
   transform: translate(-50%, -50%);
 }
 
