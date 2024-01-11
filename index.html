@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="flex-container">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-        <div class="four"></div>
-        <div class="five"></div>
-        <div class="six"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journal</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="frontpage.css" />
+    <script src="js/search.js"></script>
+  </head>
+  <body>
+    <!--header bar-->
+    <div class="headerLogo">
+      <img src="images/logo.png" alt="logo" />
+    </div>
+    <div class="header-bar">
+      <div>
+        <button class="register">REGISTER</button>
       </div>
-</body>
+      <div>
+        <button class="login">LOGIN</button>
+      </div>
+      <div>
+        <div class="vl"></div>
+      </div>
+      <div>
+        <form id="content">
+          <input type="text" name="input" class="input" id="search-input" />
+          <button type="reset" class="search" id="search-btn"></button>
+        </form>
+      </div>
+    </div>
+    <!--landing page-->
+    <div class="background1">
+      <div class="title">The Journal</div>
+      <div class="issue">Volume 1 • Issue 1 • January 2024</div>
+    </div>
+  </body>
 </html>
