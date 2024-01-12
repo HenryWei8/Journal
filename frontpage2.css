@@ -15,8 +15,9 @@
 }
 
 .journal {
-  margin-top: 1em;
+  margin-top: 2.5;
   flex: 1 1;
+  margin-top: 1em;
 }
 
 .journal img {
@@ -82,8 +83,8 @@
 
 .buttons {
   flex-direction: row;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .hl {
@@ -101,23 +102,36 @@
   font-weight: lighter;
   display: flex;
   flex: 1 1;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-right: 2em;
 }
 
 .journalstats {
   font-size: 20px;
   font-family: "open sans";
-  color: white;
-  font-weight: bold;
   justify-content: flex-end;
   flex-direction: column;
-  padding: 20px;
-  background-color: black;
   display: flex;
   flex: 1 1;
 }
+.blackbox {
+  height: 100px;
+  width: 400px;
+  background-color: black;
+}
 
 .name {
+  color: white;
   font-size: 30px;
+  font-family: "open sans";
+  font-weight: bold;
+  margin-bottom: 1em;
+  background-color: black;
+  padding: 20px;
+}
+
+.partner img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  margin-top: 3em;
 }
