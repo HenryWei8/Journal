@@ -33,7 +33,7 @@ html {
 /* buttons */
 .header-buttons {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 
 .register:hover {
