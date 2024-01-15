@@ -92,14 +92,14 @@ html {
   right: 22%;
 }
 
-#content {
+.content-form {
   height: 5px;
   width: 0px;
   margin-left: 0px;
   transform: translate(-50%, -50%);
 }
 
-#content.on {
+.content-form {
   -webkit-animation-name: in-out;
   animation-name: in-out;
   -webkit-animation-duration: 0.7s;

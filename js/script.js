@@ -1,14 +1,22 @@
 // // searchbar
 document.addEventListener("DOMContentLoaded", function () {
-  const input = document.getElementById("search-input");
-  const searchBtn = document.getElementById("search-btn");
+  // Select all search inputs and buttons using class selectors
+  let inputs = document.querySelectorAll(".search-input");
+  let searchBtns = document.querySelectorAll(".search-btn");
 
-  const expand = () => {
-    searchBtn.classList.toggle("close");
+  // Define the expand function
+  let expand = (input, button) => {
+    button.classList.toggle("close");
     input.classList.toggle("square");
   };
 
-  searchBtn.addEventListener("click", expand);
+  // Add event listeners to each search button
+  searchBtns.forEach((btn, index) => {
+    btn.addEventListener("click", function () {
+      // Assuming the input and button are paired in order
+      expand(inputs[index], btn);
+    });
+  });
 });
 
 //scroll button
