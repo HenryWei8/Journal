@@ -89,11 +89,23 @@
 
 .hl {
   border: 0.5px solid grey;
+  margin-bottom: 0.5em;
   width: 550px;
 }
 
+.vl2 {
+  border: 0.75px solid black;
+  height: 504px;
+  margin: 0 0 0 16px;
+}
+.hl2 {
+  border: 0.75px solid black;
+  width: 100%;
+  margin-top: 6.5em;
+}
+
 .journaldescription {
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-size: 20px;
   font-family: "open sans";
   color: rgb(0, 0, 0);
@@ -128,7 +140,9 @@
   background-color: black;
   padding: 20px;
 }
-
+.issn {
+  margin-left: 20px;
+}
 .partner img {
   max-width: 100%;
   max-height: 100%;
