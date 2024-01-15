@@ -1,0 +1,36 @@
+.title {
+  height: 25vh;
+  width: 100%;
+  background-image: url(images/img1.png);
+  display: flex;
+  flex-direction: row;
+}
+.title1 {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  color: #333;
+}
+p {
+  color: #666;
+}
+.editorial-board {
+  font-style: italic;
+}
+.section {
+  margin-bottom: 20px;
+}
