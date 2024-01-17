@@ -1,0 +1,36 @@
+.top {
+  flex-direction: column;
+  margin: 3% 20% 3% 20%;
+  display: flex;
+  height: 50vl;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+.open {
+  color: orange;
+}
+
+.hl {
+  border: 0.5px solid grey;
+  margin-bottom: 0.5em;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.h1 {
+  margin: 2rem 0 2rem 0;
+}
+.abstract {
+  margin-top: 3rem;
+}
+.box {
+  border-top: 1px solid rgba(128, 128, 128, 0.1);
+  margin-top: 3rem;
+  background-color: whitesmoke;
+}
+.abstract1 {
+  line-height: 1.6;
+  font-size: 24px;
+  opacity: 0.8;
+}

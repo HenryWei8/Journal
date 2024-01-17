@@ -28,3 +28,6 @@ scrollButton.addEventListener("click", function () {
   console.log("pressed");
   nextSection.scrollIntoView({ behavior: "smooth" });
 });
+
+//form
+const { body, validationResult } = require("express-validator");

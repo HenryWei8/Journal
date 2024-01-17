@@ -1,0 +1,69 @@
+.inputform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(images/img1.png);
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(20deg, rgb(65, 65, 65), black);
+  font-size: 20px;
+  width: 800px;
+  height: 80vh;
+  border-radius: 2%;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="file"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 50px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 1s;
+}
+
+.box input[type="text"]:hover,
+.box input[type="email"]:hover,
+.box input[type="file"]:hover {
+  border-color: cyan;
+}
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box input[type="file"]:focus {
+  width: 280px;
+  border-color: #2eec71;
+}
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #229048;
+  padding: 14px 25px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background-color: #17c454;
+}

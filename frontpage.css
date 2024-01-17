@@ -54,6 +54,7 @@ body {
   position: relative;
   margin-top: 3em;
   flex-grow: 0;
+  border: none;
 }
 
 .scrollButton:hover {

@@ -13,7 +13,7 @@
     />
   </head>
   <!-- header -->
-  <body>
+
     <div class="header-bar">
       <div class="header-logo">
         <a href="index.html"> <img src="images/logo.png" alt="logo" /></a>
@@ -33,7 +33,35 @@
       </div>
     </div>
     <!-- form -->
-    <div class="form"></div>
+    <div class="inputform">
+      <form class="box" action = "http://localhost/connect.php" method = "post">
+        <h1>Publish with Us</h1>
+        <div>
+          <input type="text" name="first_name" placeholder="First Name" />
+        </div>
+
+        <div>
+          <input type="text" name="last_name" placeholder="Last Name" />
+        </div>
+
+        <div>
+          <input type="email" name="email" placeholder="Email" />
+        </div>
+
+        <div>
+          <input type="text" name="comment" placeholder="Comments" />
+        </div>
+
+        <div>
+          <label for="pdfFile" style="color: white; font-size: 18px"
+            >Manuscript Rough Draft (if you have one):</label
+          >
+          <input type="file" name="pdfFile" accept=".pdf" id="pdfFile" />
+        </div>
+
+        <input type="submit"></input>
+      </form>
+    </div>
     <!-- footer -->
     <div class="footer-basic">
       <footer>
