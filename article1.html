@@ -27,11 +27,26 @@
       <div class="vl"></div>
       <div class="search-bar">
         <form class="content-form">
-          <input type="text" name="input" class="input search-input" />
-          <button type="reset" class="search search-btn"></button>
+          <input
+            type="search"
+            name="input"
+            id="searchInput"
+            class="input search-input"
+            placeholder="Search by title or author"
+            onkeypress="handleKeyPress(event)"
+          />
+
+          <button
+            type="reset"
+            class="search search-btn"
+            onclick="searchPapers()"
+          ></button>
         </form>
       </div>
     </div>
+
+    <ul id="searchResults" style="display: none"></ul>
+
     <!-- top -->
     <div class="top">
       <div>
@@ -92,5 +107,6 @@
       </footer>
     </div>
     <script src="js/script.js"></script>
+    <script src="search.js" defer></script>
   </body>
 </html>
