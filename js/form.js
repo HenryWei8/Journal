@@ -57,9 +57,13 @@ function emailSend() {
 function sendEmail(emailData) {
   Email.send(emailData).then((message) => {
     if (message == "OK") {
-      swal("Successful", "Email sent successfully!", "success");
+      swal(
+        "Successful",
+        "Thank you! We'll be in touch with you soon.",
+        "success"
+      );
     } else {
-      swal("Error", "Failed to send email.", "error");
+      swal("Error", "Please email us at henryweihw@gmail.com", "error");
     }
   });
 }
