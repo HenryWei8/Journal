@@ -10,6 +10,18 @@ const papers = [
     title: "Climate Change and Sustainable Solutions",
     author: "Sarah Johnson",
   },
+  {
+    title: "Climate Change and Sustainable Solutions",
+    author: "Sarah Johnson",
+  },
+  {
+    title: "Climate Change and Sustainable Solutions",
+    author: "Sarah Johnson",
+  },
+  {
+    title: "Climate Change and Sustainable Solutions",
+    author: "Sarah Johnson",
+  },
   // Add more paper data here
 ];
 
@@ -40,7 +52,6 @@ function searchPapers() {
 function displayResults(results) {
   const searchResultsList = document.getElementById("searchResults");
 
-  // Clear any existing search results
   searchResultsList.innerHTML = "";
 
   if (results.length === 0 && query != "") {
@@ -81,16 +92,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
-//scroll button
-let scrollButton = document.querySelector(".scrollButton");
-console.log(scrollButton);
-let nextSection = document.querySelector(".journalstats");
-
-scrollButton.addEventListener("click", function () {
-  console.log("pressed");
-  nextSection.scrollIntoView({ behavior: "smooth" });
-});
-
-//form
-const { body, validationResult } = require("express-validator");

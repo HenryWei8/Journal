@@ -49,29 +49,29 @@
 
     <!-- form -->
     <div class="inputform">
-      <form class="box" action = "http://localhost/connect.php" method = "post">
+      <form class="box" id = "emailForm" onsubmit="emailSend(); reset(); return false;">
         <h1>Publish with Us</h1>
         <div>
-          <input type="text" name="first_name" placeholder="First Name" />
+          <input type="text" name="first_name" placeholder="First Name" id = "first_name" required />
         </div>
 
         <div>
-          <input type="text" name="last_name" placeholder="Last Name" />
+          <input type="text" name="last_name" placeholder="Last Name" id = "last_name" required/>
         </div>
 
         <div>
-          <input type="email" name="email" placeholder="Email" />
+          <input type="email" name="email" placeholder="Email" id = "email" required />
         </div>
 
         <div>
-          <input type="text" name="comment" placeholder="Comments" />
+          <input type="text" name="comment" placeholder="Comments" id = "comment" />
         </div>
 
         <div>
           <label for="pdfFile" style="color: white; font-size: 18px"
             >Manuscript Rough Draft (if you have one):</label
           >
-          <input type="file" name="pdfFile" accept=".pdf" id="pdfFile" />
+          <input type="file" name="pdf_file_input" accept=".pdf" id="pdf_file_input" />
         </div>
 
         <input type="submit"></input>
@@ -97,7 +97,9 @@
         <p class="copyright">Copyright © 2024 The Journal</p>
       </footer>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"> </script>
     <script src="js/script.js"></script>
-    <script src="search.js" defer></script>
+    <script src = "form.js"></script>
   </body>
 </html>
