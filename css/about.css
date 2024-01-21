@@ -1,7 +1,7 @@
 .title {
   height: 25vh;
   width: 100%;
-  background-image: url(images/img1.png);
+  background-image: url("../images/img1.png");
   display: flex;
   flex-direction: row;
 }
