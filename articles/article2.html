@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/articles.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+  </head>
+  <body>
+    <!--header bar-->
+    <div class="header-bar">
+      <div class="header-logo">
+        <a href="../index.html">
+          <img class="logo" src="../images/logo.png" alt="logo"
+        /></a>
+      </div>
+      <div class="header-buttons">
+        <a href="../publish.html">
+          <button class="publish">PUBLISH WITH US</button></a
+        >
+        <a href="../about.html"><button class="about">ABOUT US</button></a>
+      </div>
+      <div class="vl"></div>
+      <div class="search-bar">
+        <form class="content-form">
+          <input
+            type="search"
+            name="input"
+            id="searchInput"
+            class="input search-input"
+            placeholder="Search by title or author"
+            onkeypress="handleKeyPress(event)"
+          />
+
+          <button
+            type="reset"
+            class="search search-btn"
+            onclick="searchPapers()"
+          ></button>
+        </form>
+      </div>
+    </div>
+
+    <ul id="searchResults" style="display: none"></ul>
+    <!-- top -->
+    <div class="top">
+      <div class="top1">
+        <p><b class="open">OPEN ACCESS</b>〡<u>Research Manuscript</u></p>
+        <h1 class="h1">
+          DYNAMIC CONVOLUTIONAL NETWORKS FOR 3-DIMENSIONAL RECONSTRUCTION
+        </h1>
+        <div class="hl"></div>
+        <p><b>Author(s):</b> <u>Dongchen Han</u></p>
+        <div class="hl"></div>
+        <p><b>Publication:</b> The Journal • 22 Janurary 2024</p>
+        <div class="hl"></div>
+      </div>
+      <div class="box">
+        <div class="abstract">
+          <h1 class="h1"><b>Abstract</b></h1>
+          <p class="abstract1">
+            Modern convolutional neural networks (CNNs) require applying
+            duplicate and redundant operations (such as alignment and matching)
+            on different regions and pixels when processing three-dimensional
+            (3D) reconstruction tasks. But different image areas and pixels are
+            certainly not equally valuable for 3D reconstruction. In order to
+            solve this problem, we propose a dynamic CNN structure for 3D
+            reconstruction, which can dynamically modify the network based on
+            the estimated impact of different regions and pixels on the 3D
+            reconstruction task. The small gating branch learns which important
+            areas or pixels need to be evaluated. The discrete gating decisions
+            are trained with the Gumbel-Softmax trick, combined with a series of
+            spatial and scale criteria. Our experiments on ShapeNet dataset
+            shows that our method has higher accuracy than existing methods due
+            to the better focus on important regions. Moreover, with an
+            efficient CUDA implementation, our method achieves an improved
+            inference speed on the most famous 3D reconstruction model Mesh
+            R-CNN.
+          </p>
+        </div>
+
+        <div class="hl2"></div>
+
+        <div class="pdfcontainer">
+          <h1 class="pdfheading">Formats available</h1>
+          <p class="pdfsubheading">
+            You can view the full content in the following format
+          </p>
+          <a href="../papers/paper2.pdf" target="_blank" class="pdf" download
+            >View PDF</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-basic">
+      <footer>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="index.html">Home</a></li>
+          <li class="list-inline-item"><a href="about.html">About Us</a></li>
+          <li class="list-inline-item">
+            <a href="publish.html">Publication Policies</a>
+          </li>
+        </ul>
+        <div class="social">
+          <a href="#"><i class="icon ion-social-linkedin"></i></a
+          ><a href="#"><i class="icon ion-social-youtube"></i></a
+          ><a href="#"><i class="icon ion-social-twitter"></i></a
+          ><a href="#"><i class="icon ion-social-facebook"></i></a>
+        </div>
+        <p class="copyright">Copyright © 2024 The Journal</p>
+      </footer>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

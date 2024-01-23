@@ -3,12 +3,16 @@ const papers = [
   {
     title:
       "Investigating Renewable Energy in the Context of Global Economic and Social Wellbeing",
-    author: "Henry Wei",
-    link: "article1.html",
+    author: "Raymond Wei",
+    link: "/Users/Henry/Documents/GitHub/Practice/articles/article1.html",
+    keywords:
+      "Renewable energy, Carbon emissions, Average global real GDP per capita, Temperature, COVID-19 Pandemic",
   },
   {
-    title: "Climate Change and Sustainable Solutions",
-    author: "Sarah Johnson",
+    title: "Dynamic Convolutional Networks for 3-Dimensional Reconstruction",
+    author: "Dongcheng Han",
+    link: "/Users/Henry/Documents/GitHub/Practice/articles/article2.html",
+    keywords: "3D Reconstruction, Dynamic, Convolutional Neural Networ",
   },
   {
     title: "Climate Change and Sustainable Solutions",
@@ -29,7 +33,6 @@ function handleKeyPress(event) {
   if (event.key === "Enter") {
     event.preventDefault(); // Prevent form submission
     searchPapers();
-    console.log("hi");
   }
 }
 
@@ -41,8 +44,13 @@ function searchPapers() {
   for (const paper of papers) {
     const title = paper.title.toLowerCase();
     const author = paper.author.toLowerCase();
-
-    if ((title.includes(query) || author.includes(query)) && query != "") {
+    const keywords = paper.keywords ? paper.keywords.toLowerCase() : "";
+    if (
+      (keywords.includes(query) ||
+        title.includes(query) ||
+        author.includes(query)) &&
+      query != ""
+    ) {
       searchResults.push(paper);
     }
   }

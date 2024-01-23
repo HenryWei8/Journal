@@ -4,6 +4,10 @@ html {
   padding: 0;
 }
 
+.logo {
+  margin-left: 10px;
+}
+
 .header-bar {
   min-height: 80px;
   flex: 0 1;

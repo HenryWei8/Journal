@@ -1,13 +1,14 @@
 .top {
   flex-direction: column;
-  margin: 3% 20% 3% 20%;
   display: flex;
   height: 50vl;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, "Times New Roman", serif;
+  font-weight: 300;
 }
-
-.open {
+.top1 {
+  margin: 3% 20% 3% 20%;
+}
+s .open {
   color: orange;
 }
 
@@ -17,20 +18,86 @@
   width: 100%;
   opacity: 0.4;
 }
+.hl2 {
+  border: 0.5px solid grey;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 58%;
+  opacity: 0.4;
+}
+
+.h2 {
+  border: 0.5px solid grey;
+  margin-bottom: 0.5em;
+  width: 100%;
+  opacity: 0.4;
+}
 
 .h1 {
-  margin: 2rem 0 2rem 0;
+  margin: 3.5rem 0 2rem 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.abstract {
+  width: 1000px;
+}
+
+.box {
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 115vh;
 }
 .abstract {
-  margin-top: 3rem;
-}
-.box {
-  border-top: 1px solid rgba(128, 128, 128, 0.1);
-  margin-top: 3rem;
-  background-color: whitesmoke;
-}
-.abstract1 {
+  margin-top: 12em;
   line-height: 1.6;
   font-size: 24px;
   opacity: 0.8;
+}
+
+.pdfcontainer {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #fff;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  background-color: whitesmoke;
+  margin-bottom: 400px;
+}
+.pdf {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.pdf:hover {
+  background-color: #e5533d;
+}
+
+.pdfheading {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.pdfsubheading {
+  color: #666;
+  margin-bottom: 1.5rem;
 }
