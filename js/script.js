@@ -12,11 +12,15 @@ const papers = [
     title: "Dynamic Convolutional Networks for 3-Dimensional Reconstruction",
     author: "Dongcheng Han",
     link: "/Users/Henry/Documents/GitHub/Practice/articles/article2.html",
-    keywords: "3D Reconstruction, Dynamic, Convolutional Neural Networ",
+    keywords: "3D Reconstruction, Dynamic, Convolutional Neural Network",
   },
   {
-    title: "Climate Change and Sustainable Solutions",
-    author: "Sarah Johnson",
+    title:
+      "A Satellite Visual Analysis of the Albedo Effect on Glacial Recession, and its Use as a Predictor of Glacial Lake Changes",
+    author: "Jason Huang",
+    link: "/Users/Henry/Documents/GitHub/Practice/articles/article3.html",
+    keywords:
+      "Environmental Science, Ecosystem, Glacial Lake, Glacier, Meltwater",
   },
   {
     title: "Climate Change and Sustainable Solutions",
@@ -33,6 +37,7 @@ function handleKeyPress(event) {
   if (event.key === "Enter") {
     event.preventDefault(); // Prevent form submission
     searchPapers();
+    document.getElementById("searchInput").value = "";
   }
 }
 
