@@ -15,20 +15,25 @@ const papers = [
     keywords: "3D Reconstruction, Dynamic, Convolutional Neural Network",
   },
   {
+    title: "Evaluation of Inconsistent Judgement Criteria in Ad Hoc Tribunals",
+    author: "Edmund Carr, Miles Boyer",
+    link: "/Users/Henry/Documents/GitHub/Practice/articles/article3.html",
+    keywords: "Yugoslavia, Tribunal, Ad Hoc, ICTY",
+  },
+  {
     title:
       "A Satellite Visual Analysis of the Albedo Effect on Glacial Recession, and its Use as a Predictor of Glacial Lake Changes",
     author: "Jason Huang",
-    link: "/Users/Henry/Documents/GitHub/Practice/articles/article3.html",
+    link: "/Users/Henry/Documents/GitHub/Practice/articles/article4.html",
     keywords:
       "Environmental Science, Ecosystem, Glacial Lake, Glacier, Meltwater",
   },
   {
-    title: "Climate Change and Sustainable Solutions",
-    author: "Sarah Johnson",
-  },
-  {
-    title: "Climate Change and Sustainable Solutions",
-    author: "Sarah Johnson",
+    title:
+      "Linguistic Hurdles Shaping Opportunities in the Immigrant Integration Experience",
+    author: "Siddharth Munjal",
+    link: "/Users/Henry/Documents/GitHub/Practice/articles/article5.html",
+    keywords: "Language, English, Immigrant, Employment",
   },
   // Add more paper data here
 ];
