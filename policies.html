@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publication Policies</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/policies.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+  </head>
+  <body>
+    <!--header bar-->
+    <div class="header-bar">
+      <div class="header-logo">
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="logo"
+        /></a>
+      </div>
+      <div class="header-buttons">
+        <a href="publish.html"> <button class="publish">CONTACT US</button></a>
+        <a href="about.html"><button class="about">ABOUT US</button></a>
+      </div>
+      <div class="vl"></div>
+      <div class="search-bar">
+        <form class="content-form">
+          <input
+            type="search"
+            name="input"
+            id="searchInput"
+            class="input search-input"
+            placeholder="Search by title or author"
+            onkeypress="handleKeyPress(event)"
+          />
+
+          <button
+            type="reset"
+            class="search search-btn"
+            onclick="searchPapers()"
+          ></button>
+        </form>
+      </div>
+    </div>
+
+    <ul id="searchResults" style="display: none"></ul>
+
+    <!-- content -->
+    <ul class="tilesWrap">
+      <li>
+        <h2>01</h2>
+        <h3>Abstract</h3>
+        <p>
+          Maximum 250 words; summarize aim and scope, methods, results,
+          conclusions, and implications of the study; written in plain language.
+        </p>
+        <a
+          href="https://owl.purdue.edu/owl/graduate_writing/graduate_writing_genres/graduate_writing_genres_abstracts_new.html"
+        >
+          <button>Learn More</button>
+        </a>
+      </li>
+      <li>
+        <h2>02</h2>
+        <h3>Introduction</h3>
+        <p>
+          To provide context and background for readers; include research
+          question(s), variables, objective, importance, and relevance.
+        </p>
+        <a
+          href="https://www.scribbr.com/research-paper/research-paper-introduction/"
+        >
+          <button>Learn More</button>
+        </a>
+      </li>
+      <li>
+        <h2>03</h2>
+        <h3>Results/Discussion</h3>
+        <p>
+          Outcomes presented in tables and figures (images/graphs); description
+          and interpretation of outcomes with focus on observations, patterns,
+          and trends; summarize significance of findings and explain
+          significance.
+        </p>
+        <a
+          href="https://owl.purdue.edu/owl/subject_specific_writing/writing_in_the_social_sciences/writing_in_psychology_experimental_report_writing/experimental_reports_2.html"
+        >
+          <button>Learn More</button>
+        </a>
+      </li>
+      <li>
+        <h2>04</h2>
+        <h3>Citations and References</h3>
+        <p>
+          All information and data from other sources must be cited in text and
+          in a reference list at the end of the paper. Citation style is left to
+          authors' discretion.
+        </p>
+        <a
+          href="https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html"
+        >
+          <button>Learn More</button>
+        </a>
+      </li>
+    </ul>
+
+    <!-- footer -->
+    <div class="footer-basic">
+      <footer>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="index.html">Home</a></li>
+          <li class="list-inline-item"><a href="about.html">About Us</a></li>
+          <li class="list-inline-item">
+            <a href="policies.html">Publication Policies</a>
+          </li>
+        </ul>
+        <div class="social">
+          <a href="#"><i class="icon ion-social-linkedin"></i></a
+          ><a href="#"><i class="icon ion-social-youtube"></i></a
+          ><a href="#"><i class="icon ion-social-twitter"></i></a
+          ><a href="#"><i class="icon ion-social-facebook"></i></a>
+        </div>
+        <p class="copyright">Copyright © 2024 The Fiat Lux Journal</p>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

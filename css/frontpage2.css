@@ -62,7 +62,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.allissues {
+.policies {
   background-color: rgb(255, 255, 255);
   color: black;
   border: 2px solid black;
@@ -81,7 +81,7 @@
   color: black;
 }
 
-.allissues:hover {
+.policies:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
