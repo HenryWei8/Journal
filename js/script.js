@@ -4,27 +4,27 @@ const papers = [
     title:
       "Investigating Renewable Energy in the Context of Global Economic and Social Wellbeing",
     author: "Raymond Wei",
-    link: "/Users/Henry/Documents/GitHub/Journal/articles/article1.html",
+    link: "articles/article1.html",
     keywords:
       "Renewable energy, Carbon emissions, Average global real GDP per capita, Temperature, COVID-19 Pandemic",
   },
   {
     title: "Dynamic Convolutional Networks for 3-Dimensional Reconstruction",
     author: "Dongcheng Han",
-    link: "/Users/Henry/Documents/GitHub/Journal/articles/article2.html",
+    link: "articles/article2.html",
     keywords: "3D Reconstruction, Dynamic, Convolutional Neural Network",
   },
   {
     title: "Evaluation of Inconsistent Judgement Criteria in Ad Hoc Tribunals",
     author: "Edmund Carr, Miles Boyer",
-    link: "/Users/Henry/Documents/GitHub/Journal/articles/article3.html",
+    link: "articles/article3.html",
     keywords: "Yugoslavia, Tribunal, Ad Hoc, ICTY",
   },
   {
     title:
       "A Satellite Visual Analysis of the Albedo Effect on Glacial Recession, and its Use as a Predictor of Glacial Lake Changes",
     author: "Jason Huang",
-    link: "/Users/Henry/Documents/GitHub/Journal/articles/article4.html",
+    link: "articles/article4.html",
     keywords:
       "Environmental Science, Ecosystem, Glacial Lake, Glacier, Meltwater",
   },
@@ -32,7 +32,7 @@ const papers = [
     title:
       "Linguistic Hurdles Shaping Opportunities in the Immigrant Integration Experience",
     author: "Siddharth Munjal",
-    link: "/Users/Henry/Documents/GitHub/Journal/articles/article5.html",
+    link: "articles/article5.html",
     keywords: "Language, English, Immigrant, Employment",
   },
   // Add more paper data here
