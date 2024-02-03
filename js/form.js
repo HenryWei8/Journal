@@ -18,11 +18,11 @@ function emailSend() {
   // Email data object
   var emailData = {
     Host: "smtp.elasticemail.com",
-    Username: "henryweihw@gmail.com",
-    Password: "E0C389EEB98BC79219689DDFCA6A12F27907",
-    To: "henryweihw@gmail.com",
-    From: "henryweihw@gmail.com",
-    Subject: "This is the subject",
+    Username: "fljsender@gmail.com",
+    Password: "4D5D8C4ADDD9E3EC96AA1FBA36CCF21ABE27",
+    To: "fiatluxjournal@gmail.com",
+    From: "fljsender@gmail.com",
+    Subject: "Notification",
     Body: messageBody,
   };
 
@@ -63,7 +63,7 @@ function sendEmail(emailData) {
         "success"
       );
     } else {
-      swal("Error", "Please email us at henryweihw@gmail.com", "error");
+      swal("Error", "Please email us at fiatluxjournal@gmail.com", "error");
     }
   });
 }
