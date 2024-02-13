@@ -15,41 +15,6 @@
     />
   </head>
   <body>
-    <!--header bar-->
-    <div class="header-bar">
-      <div class="header-logo">
-        <a href="../index.html">
-          <img class="logo" src="../images/logo.png" alt="logo"
-        /></a>
-      </div>
-      <div class="header-buttons">
-        <a href="../publish.html">
-          <button class="publish">CONTACT US</button></a
-        >
-        <a href="../about.html"><button class="about">ABOUT US</button></a>
-      </div>
-      <div class="vl"></div>
-      <div class="search-bar">
-        <form class="content-form">
-          <input
-            type="search"
-            name="input"
-            id="searchInput"
-            class="input search-input"
-            placeholder="Search by title or author"
-            onkeypress="handleKeyPress(event)"
-          />
-
-          <button
-            type="reset"
-            class="search search-btn"
-            onclick="searchPapers()"
-          ></button>
-        </form>
-      </div>
-    </div>
-
-    <ul id="searchResults" style="display: none"></ul>
     <!-- top -->
     <div class="top">
       <div class="top1">
@@ -121,5 +86,6 @@
       </footer>
     </div>
     <script src="../js/script.js"></script>
+    <script src="../js/header.js"></script>
   </body>
 </html>

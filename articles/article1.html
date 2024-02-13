@@ -16,41 +16,6 @@
     />
   </head>
   <body>
-    <!--header bar-->
-    <div class="header-bar">
-      <div class="header-logo">
-        <a href="../index.html">
-          <img class="logo" src="../images/logo.png" alt="logo"
-        /></a>
-      </div>
-      <div class="header-buttons">
-        <a href="../publish.html">
-          <button class="publish">CONTACT US</button></a
-        >
-        <a href="../about.html"><button class="about">ABOUT US</button></a>
-      </div>
-      <div class="vl"></div>
-      <div class="search-bar">
-        <form class="content-form">
-          <input
-            type="search"
-            name="input"
-            id="searchInput"
-            class="input search-input"
-            placeholder="Search by title or author"
-            onkeypress="handleKeyPress(event)"
-          />
-
-          <button
-            type="reset"
-            class="search search-btn"
-            onclick="searchPapers()"
-          ></button>
-        </form>
-      </div>
-    </div>
-
-    <ul id="searchResults" style="display: none"></ul>
     <!-- top -->
     <div class="top">
       <div class="top1">
@@ -96,7 +61,7 @@
           <p class="pdfsubheading">
             You can view the full content in the following format
           </p>
-          <a href="papers/paper1.pdf" target="_blank" class="pdf" download
+          <a href="../papers/paper1.pdf" target="_blank" class="pdf" download
             >View PDF</a
           >
         </div>
@@ -122,6 +87,7 @@
         <p class="copyright">Copyright © 2024 The Fiat Lux Journal</p>
       </footer>
     </div>
+    <script src="../js/header.js"></script>
     <script src="../js/script.js"></script>
   </body>
 </html>

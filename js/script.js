@@ -70,12 +70,14 @@ function searchPapers() {
   displayResults(searchResults);
 }
 function displayResults(results) {
+  const query = document.getElementById("searchInput").value.toLowerCase();
   const searchResultsList = document.getElementById("searchResults");
 
   searchResultsList.innerHTML = "";
 
   if (results.length == 0 && query != "") {
-    searchResultsList.innerHTML = "No results found.";
+    searchResultsList.innerHTML =
+      '<span style="color: white;">No results found.</span>';
   } else {
     for (const result of results) {
       const listItem = document.createElement("li");
