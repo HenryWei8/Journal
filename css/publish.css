@@ -4,6 +4,7 @@
   align-items: center;
   height: 100vh;
   background-image: url("../images/img1.png");
+  background-repeat: no-repeat;
 }
 .box {
   display: flex;

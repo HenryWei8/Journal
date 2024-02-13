@@ -1,4 +1,3 @@
-console.log("Script is running.");
 document.addEventListener("DOMContentLoaded", function () {
   const scrollButton = document.querySelector(".scrollButton");
   const journalstatsSection = document.querySelector(".background2");

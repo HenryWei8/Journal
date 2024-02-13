@@ -2,10 +2,16 @@ body,
 html {
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .logo {
   margin-left: 10px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
 }
 
 .header-bar {
@@ -139,7 +145,7 @@ html {
 
 /*circle*/
 .search {
-  background: none;
+  background: none; /* Changed from 'none' to 'black' */
   position: absolute;
   top: 0px;
   left: 0;
@@ -255,7 +261,7 @@ html {
 }
 
 #searchResults li a {
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
   font-size: 25px;
   font-style: italic;
   color: white; /* Text color for links */

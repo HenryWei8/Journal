@@ -1,4 +1,4 @@
-// // searchbar
+// searchbar
 const papers = [
   {
     title:
@@ -47,6 +47,8 @@ function handleKeyPress(event) {
 }
 
 function searchPapers() {
+  document.getElementById("searchInput").placeholder =
+    "Search by title or author";
   const query = document.getElementById("searchInput").value.toLowerCase();
 
   const searchResults = []; // Initialize searchResults as an empty array
@@ -88,6 +90,34 @@ function displayResults(results) {
   // Show the search results
   searchResultsList.style.display = "block";
 }
+// This function hides the search results
+function hideSearchResults() {
+  const searchResultsContainer = document.getElementById("searchResults");
+  if (searchResultsContainer) {
+    searchResultsContainer.style.display = "none";
+  }
+}
+
+// clear search results
+function setupGlobalClickListener() {
+  // Add a click event listener to the whole document
+  document.addEventListener("click", function (event) {
+    const searchResultsContainer = document.getElementById("searchResults");
+    const searchInput = document.getElementById("searchInput");
+
+    // Check if the click is outside of the searchInput and searchResultsContainer
+    if (
+      searchResultsContainer &&
+      !searchInput.contains(event.target) &&
+      !searchResultsContainer.contains(event.target)
+    ) {
+      hideSearchResults();
+    }
+  });
+}
+
+// Set up the listener once the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", setupGlobalClickListener);
 
 document.addEventListener("DOMContentLoaded", function () {
   // Select all search inputs and buttons using class selectors
@@ -98,6 +128,12 @@ document.addEventListener("DOMContentLoaded", function () {
   let expand = (input, button) => {
     button.classList.toggle("close");
     input.classList.toggle("square");
+
+    if (button.classList.contains("close")) {
+      // Clear the input field
+      input.value = "";
+      input.placeholder = "Search by title or author";
+    }
   };
 
   // Add event listeners to each search button
