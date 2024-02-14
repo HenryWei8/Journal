@@ -4,7 +4,7 @@
   font-family: "open sans";
   color: rgb(0, 0, 0);
   justify-content: flex-end;
-
+  background-size: cover;
   display: flex;
   flex-direction: row;
   /* vertical */
@@ -20,16 +20,18 @@
 }
 
 .journal {
-  margin-top: 2.5;
-  flex: 1 1;
-  margin-top: 1em;
+  padding: 1rem;
+  margin: 1rem 1rem 0 0;
 }
 
 .journal img {
   max-width: 100%;
+  height: auto;
   max-height: 100%;
-  width: 350px;
-  margin-left: 6em;
+  margin-left: 1em;
+  max-width: 100%;
+  max-height: 100%;
+  width: 20rem;
 }
 
 .currentissue1 {
