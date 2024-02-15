@@ -6,7 +6,6 @@
   background-image: url("../images/img1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
 }
 .box {
   display: flex;
@@ -16,8 +15,9 @@
   background: linear-gradient(20deg, rgb(65, 65, 65), black);
   font-size: 20px;
   width: 800px;
-  height: 80vh;
+  height: 800px;
   border-radius: 2%;
+  overflow: scroll;
 }
 
 .box h1 {
