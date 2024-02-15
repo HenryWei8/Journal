@@ -38,11 +38,6 @@ s .open {
   font-size: 35px;
   font-weight: bold;
 }
-
-.abstract {
-  width: 1000px;
-}
-
 .box {
   flex-direction: column;
   border: 1px solid rgba(128, 128, 128, 0.1);
@@ -50,14 +45,29 @@ s .open {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 115vh;
+  height: 65rem;
+  overflow: auto;
 }
+.container {
+  flex-direction: column;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60rem;
+}
+.container p {
+  text-wrap: auto;
+}
+
 .abstract {
-  margin-top: 12em;
+  padding: 16px;
+  margin-top: 20em;
   line-height: 1.6;
   font-size: 24px;
   opacity: 0.8;
+  width: 1000px;
 }
 
 .pdfcontainer {
@@ -71,7 +81,7 @@ s .open {
   width: 80%;
   max-width: 600px;
   background-color: whitesmoke;
-  margin-bottom: 400px;
+  margin-bottom: 600px;
 }
 .pdf {
   background-color: #ff6347;
