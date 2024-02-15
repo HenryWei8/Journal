@@ -22,6 +22,7 @@
 .journal {
   padding: 1rem;
   margin: 1rem 1rem 0 0;
+  min-width: 250px;
 }
 
 .journal img {
