@@ -1,6 +1,5 @@
 .background2 {
-  height: 400px;
-  font-size: 20px;
+  height: 30vw;
   font-family: "open sans";
   color: rgb(0, 0, 0);
   justify-content: flex-end;
@@ -12,6 +11,8 @@
   /* horizontal */
   align-items: flex-start;
   display: flex;
+  border: 0.075vw solid black;
+  width: 100%;
 }
 
 .background3 {
@@ -20,31 +21,28 @@
 }
 
 .journal {
-  padding: 1rem;
-  margin: 1rem 1rem 0 0;
-  min-width: 250px;
+  padding: 1vw;
+  margin: 1vw 1vw 0 0;
+  min-width: 20vw;
 }
 
 .journal img {
   max-width: 100%;
-  min-width: 100%;
-  height: auto;
   max-height: 100%;
-  margin-left: 0.5em;
-  max-height: 100%;
-  width: 20rem;
+  margin-left: 0.5vw;
+  width: 20vw;
 }
 
 .currentissue1 {
-  font-size: 30px;
+  font-size: 2vw;
   font-family: "open sans";
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
 
 .currentissue2 {
-  margin-top: 1em;
-  font-size: 20px;
+  margin-top: 1vw;
+  font-size: 1vw;
   font-weight: bold;
   font-family: "open sans";
   color: rgb(0, 0, 0);
@@ -54,11 +52,11 @@
 .currentissue {
   background-color: black;
   color: white;
-  border: 2px solid white;
-  padding: 10px 40px;
+  border: 0.2vw solid white;
+  padding: 0.75vw 3vw;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1vw;
+  margin: 0.4vw 0.2vw;
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
@@ -68,11 +66,11 @@
 .policies {
   background-color: rgb(255, 255, 255);
   color: black;
-  border: 2px solid black;
-  padding: 10px 40px;
+  border: 0.2vw solid black;
+  padding: 0.75vw 3vw;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1vw;
+  margin: 0.4vw 0.2vw;
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
@@ -97,24 +95,20 @@
 
 .hl {
   border: 0.5px solid grey;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5vw;
   width: 550px;
 }
 
 .vl2 {
-  border: 0.75px solid black;
-  height: 504px;
+  border: 0.05vw solid black;
+  height: 30vw;
   margin: 0 0 0 16px;
-}
-.hl2 {
-  border: 0.75px solid black;
-  width: 100%;
-  margin-top: 6.5em;
 }
 
 .journaldescription {
+  max-width: 80vw;
   margin-top: 1.5em;
-  font-size: 20px;
+  font-size: 1.3vw;
   font-family: "open sans";
   color: rgb(0, 0, 0);
   justify-content: flex-end;
@@ -123,10 +117,11 @@
   display: flex;
   flex: 1 1;
   margin-right: 2em;
+  overflow: hidden;
 }
 
 .journalstats {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-family: "open sans";
   justify-content: flex-end;
   flex-direction: column;
@@ -141,15 +136,16 @@
 
 .name {
   color: white;
-  font-size: 30px;
+  font-size: 2.25vw;
   font-family: "open sans";
   font-weight: bold;
   margin-bottom: 1em;
   background-color: black;
-  padding: 20px;
+  padding: 2vw;
 }
 .issn {
-  margin-left: 20px;
+  font-size: 1.25vw;
+  margin-left: 1.25vw;
 }
 .thejournallogo img {
   max-width: 100%;

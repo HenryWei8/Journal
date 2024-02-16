@@ -17,7 +17,7 @@ body {
 }
 
 .title1 {
-  font-size: 5rem;
+  font-size: 5vw;
   font-family: "open sans";
   color: white;
   font-weight: bold;
@@ -29,7 +29,7 @@ body {
 }
 
 .issue {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-family: "open sans";
   color: white;
   font-weight: bold;
@@ -44,7 +44,7 @@ body {
   max-height: 30vh;
   border: none;
   margin-top: auto;
-  font-size: 80px;
+  font-size: 5vw;
   color: white;
   cursor: pointer;
   background-color: transparent;
