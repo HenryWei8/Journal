@@ -18,6 +18,7 @@ body {
 
 .title1 {
   font-size: 5vw;
+  max-height: 600px;
   font-family: "open sans";
   color: white;
   font-weight: bold;

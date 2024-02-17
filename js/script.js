@@ -129,6 +129,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Define the expand function
   let expand = (input, button) => {
     button.classList.toggle("close");
+    input.value = "";
+    document.getElementById("searchInput").placeholder = "";
     input.classList.toggle("square");
 
     if (button.classList.contains("close")) {
