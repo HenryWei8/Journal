@@ -259,7 +259,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 #searchResults li a {
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-style: italic;
   color: white; /* Text color for links */
 }

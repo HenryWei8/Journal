@@ -1,23 +1,22 @@
 .footer-basic {
-  padding: 40px 0;
+  padding: 1vw 0;
   bottom: 0;
   background-color: black;
   color: white;
   width: 100%;
-  overflow-y: hidden;
 }
 
 .footer-basic ul {
   padding: 0;
   list-style: none;
   text-align: center;
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 20px;
+  font-size: 1.2vw;
+  line-height: 2.2vw;
+  margin-bottom: 1.5vw;
 }
 
 .footer-basic li {
-  padding: 0 10px;
+  padding: 0 1vw;
 }
 
 .footer-basic ul a {
@@ -32,19 +31,19 @@
 
 .footer-basic .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 2vw;
 }
 
 .footer-basic .social > a {
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  font-size: 1.6vw;
+  width: 3vw;
+  height: 3vw;
+  line-height: 3vw;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
   border: 1px solid #ccc;
-  margin: 0 8px;
+  margin: 0 0.5vw;
   color: inherit;
   opacity: 0.75;
 }
@@ -54,9 +53,9 @@
 }
 
 .footer-basic .copyright {
-  margin-top: 15px;
+  margin-top: 0.5vw;
   text-align: center;
-  font-size: 13px;
+  font-size: 0.8vw;
   color: #aaa;
   margin-bottom: 0;
 }
