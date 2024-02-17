@@ -7,7 +7,7 @@ html {
 }
 
 .logo {
-  margin-left: 10px;
+  margin-left: 0.8vw;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
@@ -15,9 +15,9 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .header-bar {
-  min-height: 80px;
+  min-height: 5vw;
   flex: 0 1;
-  font-size: 20px;
+  font-size: 2vw;
   font-family: "open sans";
   color: white;
   font-weight: bold;
@@ -31,7 +31,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 /* logo */
 .header-logo {
-  height: 80px;
+  height: 5vw;
   display: flex;
   margin-right: auto;
 }
@@ -43,7 +43,7 @@ input[type="search"]::-webkit-search-cancel-button {
 /* buttons */
 .header-buttons {
   display: flex;
-  gap: 10px;
+  gap: 1vw;
 }
 
 .publish:hover {
@@ -58,9 +58,9 @@ input[type="search"]::-webkit-search-cancel-button {
 
 /*division line*/
 .vl {
-  border: 0.5px solid grey;
-  height: 55px;
-  margin: 0 16px 0 16px;
+  border: 0.05vw solid grey;
+  height: 3.5vw;
+  margin: 0 15vw 0 1vw;
 }
 
 /* search bar */
@@ -68,44 +68,43 @@ input[type="search"]::-webkit-search-cancel-button {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 20px;
-  width: 300px;
+  margin-right: 1.5vw;
+  width: 2.5vw;
 }
 
 .publish {
   background-color: black;
+  max-height: 3vw;
   color: white;
-  border: 2px solid white;
-  padding: 10px 40px;
+  border: 0.05vw solid white;
+  padding: 0.75vw 3vw;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1vw;
+  margin: 0.03vw 0.15vw;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 4vw;
   font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-left: auto;
-  right: 32%;
+  box-shadow: 0 0.03vw 0.08vw 0 rgba(0, 0, 0, 0.2);
 }
 .about {
   background-color: rgb(255, 255, 255);
+  max-height: 3vw;
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
-  padding: 10px 40px;
+  border: 0.05vw solid rgb(0, 0, 0);
+  padding: 0.75vw 3vw;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1vw;
+  margin: 0.03vw 0.15vw;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 4vw;
   font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
-  right: 22%;
+  box-shadow: 0 0.03vw 0.08vw 0 rgba(0, 0, 0, 0.2);
 }
 
 .content-form {
-  height: 5px;
-  width: 0px;
-  margin-left: 0px;
+  height: 0.3vw;
+  width: 0vw;
+  margin-left: 0vw;
   transform: translate(-50%, -50%);
 }
 
@@ -122,9 +121,9 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .input {
   box-sizing: border-box;
-  width: 30px;
-  height: 30px;
-  border: 4px solid #ffffff;
+  width: 2vw;
+  height: 2vw;
+  border: 0.2vw solid #ffffff;
   border-radius: 50%;
   background: none;
   color: #fff;
@@ -143,16 +142,14 @@ input[type="search"]::-webkit-search-cancel-button {
   transform: translate(-100%, -50%);
 }
 
-/*circle*/
 .search {
-  background: none; /* Changed from 'none' to 'black' */
+  background: none;
   position: absolute;
   top: 0px;
   left: 0;
-  height: 30px;
-  width: 30px;
+  height: 2vw;
+  width: 2vw;
   padding: 0;
-  border-radius: 100%;
   outline: 0;
   border: 0;
   color: inherit;
@@ -168,14 +165,14 @@ input[type="search"]::-webkit-search-cancel-button {
 .search:before {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 5px;
+  width: 1.2vw;
+  height: 0.25vw;
   background-color: #fff;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 1.5vw;
+  margin-left: 0.5vw;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -191,10 +188,10 @@ input[type="search"]::-webkit-search-cancel-button {
 .close:before {
   content: "";
   position: absolute;
-  width: 27px;
-  height: 4px;
+  width: 1.7vw;
+  height: 0.2vw;
   margin-top: -1px;
-  margin-left: -17px;
+  margin-left: -1vw;
   background-color: #fff;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -207,11 +204,11 @@ input[type="search"]::-webkit-search-cancel-button {
 .close:after {
   content: "";
   position: absolute;
-  width: 27px;
-  height: 4px;
+  width: 1.7vw;
+  height: 0.2vw;
   background-color: #fff;
   margin-top: -1px;
-  margin-left: -17px;
+  margin-left: -1vw;
   cursor: pointer;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -221,14 +218,14 @@ input[type="search"]::-webkit-search-cancel-button {
 .square {
   box-sizing: border-box;
   padding: 0 40px 0 10px;
-  width: 300px;
-  height: 50px;
-  border: 4px solid #ffffff;
+  width: 16vw;
+  height: 2.9vw;
+  border: 0.25vw solid #ffffff;
   border-radius: 0;
   background: none;
   color: #fff;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: 400;
   outline: 0;
   -webkit-transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out,
@@ -251,7 +248,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 #searchResults li {
-  margin-top: 40px; /* Adjust spacing between search results */
+  margin-top: 3vw; /* Adjust spacing between search results */
   background-color: black; /* Background color for each search result */
   padding: 5px; /* Add padding to each search result item */
 }
@@ -262,7 +259,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 #searchResults li a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2vw;
   font-style: italic;
   color: white; /* Text color for links */
 }
