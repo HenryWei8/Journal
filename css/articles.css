@@ -8,34 +8,41 @@
 .top1 {
   margin: 3% 20% 3% 20%;
 }
-s .open {
-  color: orange;
+.open {
+  color: #ff8e06;
+  font-size: 1vw;
+}
+
+.author {
+  font-size: 1vw;
 }
 
 .hl {
   border: 0.5px solid grey;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5vw;
   width: 100%;
   opacity: 0.4;
 }
 .hl2 {
   border: 0.5px solid grey;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: 4vw;
+  margin-bottom: 3vw;
   width: 58%;
   opacity: 0.4;
 }
-
+.type {
+  font-size: 1vw;
+}
 .h2 {
   border: 0.5px solid grey;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5vw;
   width: 100%;
   opacity: 0.4;
 }
 
 .h1 {
-  margin: 3.5rem 0 2rem 0;
-  font-size: 35px;
+  margin: 3.5vw 0 2vw 0;
+  font-size: 3vw;
   font-weight: bold;
 }
 .box {
@@ -45,7 +52,7 @@ s .open {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 65rem;
+  height: 80vw;
   overflow: auto;
 }
 .container {
@@ -55,19 +62,19 @@ s .open {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60rem;
+  height: 60vw;
 }
 .container p {
   text-wrap: auto;
 }
 
 .abstract {
-  padding: 16px;
-  margin-top: 20em;
+  padding-top: 20vw;
+  margin-top: 20vw;
   line-height: 1.6;
-  font-size: 24px;
+  font-size: 1.5vw;
   opacity: 0.8;
-  width: 1000px;
+  width: 75vw;
 }
 
 .pdfcontainer {
@@ -77,24 +84,24 @@ s .open {
   align-items: center;
   border-radius: 4px;
   background: #fff;
-  padding: 20px;
+  padding: 1.5vw;
   width: 80%;
-  max-width: 600px;
+  max-width: 50vw;
   background-color: whitesmoke;
-  margin-bottom: 600px;
+  margin-bottom: 50vw;
 }
 .pdf {
   background-color: #ff6347;
   color: white;
-  padding: 10px 20px;
+  padding: 1vw 2vw;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1vw;
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 1.8vw;
 }
 
 .pdf:hover {
@@ -102,12 +109,13 @@ s .open {
 }
 
 .pdfheading {
-  font-size: 25px;
+  font-size: 2vw;
   color: #333;
-  margin-bottom: 2rem;
+  margin-bottom: 2vw;
 }
 
 .pdfsubheading {
   color: #666;
-  margin-bottom: 1.5rem;
+  font-size: 1vw;
+  margin-bottom: 2vw;
 }
