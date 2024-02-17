@@ -8,7 +8,7 @@
 }
 .hl3 {
   border: 0.5px solid grey;
-  width: 480px;
+  width: 28vw;
   margin-top: -5px;
   margin-bottom: 3vw;
 }
@@ -87,6 +87,12 @@
   max-height: auto;
   display: flex;
   width: 20vw;
+}
+
+.publications,
+.read,
+.recent {
+  font-size: 0.75vw;
 }
 
 .custom {
