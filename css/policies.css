@@ -3,9 +3,9 @@ body {
 }
 .tilesWrap {
   padding: 0;
-  margin: 50px auto;
+  margin: 4vw auto;
   list-style: none;
-  height: 70vh;
+  height: 70vw;
   align-items: center;
   text-align: center;
   margin-top: 30vh;
@@ -13,12 +13,12 @@ body {
 .tilesWrap li {
   display: inline-block;
   width: 20%;
-  min-width: 300px;
-  max-width: 330px;
-  padding: 80px 20px 40px;
+  min-width: 30vw;
+  max-width: 3.3vw;
+  padding: 7vw 1.5vw 3vw;
   position: relative;
   vertical-align: middle;
-  margin: 10px;
+  margin: 1vw;
   font-family: "helvetica", san-serif;
   min-height: 25vh;
   background: #262a2b;
@@ -27,29 +27,29 @@ body {
 }
 
 .tilesWrap li h2 {
-  font-size: 130px;
+  font-size: 8vw;
   margin: 0;
   position: absolute;
   opacity: 0.2;
-  top: 50px;
-  right: 10px;
+  top: 4vw;
+  right: 1vw;
   transition: all 0.3s ease-in-out;
 }
 .tilesWrap li h3 {
-  font-size: 25px;
+  font-size: 2vw;
   color: #b7b7b7;
-  margin-bottom: 5px;
+  margin-bottom: 0.5vw;
 }
 .tilesWrap li p {
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 1.2vw;
+  line-height: 2vw;
   color: #b7b7b7;
-  margin-top: 5px;
+  margin-top: 0.5vw;
 }
 .tilesWrap li button {
   background: transparent;
   border: 1px solid #b7b7b7;
-  padding: 10px 20px;
+  padding: 1vw 2vw;
   color: #b7b7b7;
   border-radius: 3px;
   position: relative;
@@ -67,8 +67,8 @@ body {
   background: #b7b7b7;
   top: 0;
   opacity: 0;
-  left: -140px;
-  border-radius: 0 20px 20px 0;
+  left: -10vw;
+  border-radius: 0 1.5vw 1.5vw 0;
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
