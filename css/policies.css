@@ -8,7 +8,8 @@ body {
   height: 70vw;
   align-items: center;
   text-align: center;
-  margin-top: 30vh;
+  margin-top: 15vh;
+  margin-bottom: 30vh;
 }
 .tilesWrap li {
   display: inline-block;
@@ -18,7 +19,7 @@ body {
   padding: 7vw 1.5vw 3vw;
   position: relative;
   vertical-align: middle;
-  margin: 1vw;
+  margin: 2vw;
   font-family: "helvetica", san-serif;
   min-height: 25vh;
   background: #262a2b;
@@ -37,14 +38,14 @@ body {
   margin: 0;
   position: absolute;
   opacity: 0.2;
-  top: 4vw;
+  top: 8vw;
   right: 1vw;
   transition: all 0.3s ease-in-out;
 }
 .tilesWrap li h3 {
   font-size: 2vw;
   color: #b7b7b7;
-  margin-bottom: 0.5vw;
+  margin-bottom: 1vw;
 }
 .tilesWrap li p {
   font-size: 1.2vw;
