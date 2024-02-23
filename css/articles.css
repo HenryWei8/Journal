@@ -4,6 +4,7 @@
   height: 50vl;
   font-family: Cambria, Cochin, Georgia, "Times New Roman", serif;
   font-weight: 300;
+  min-height: 100vh;
 }
 .top1 {
   margin: 3% 20% 3% 20%;
