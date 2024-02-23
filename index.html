@@ -4,16 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiat Lux Journal</title>
-    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/indexheader.css" />
     <link rel="stylesheet" href="css/frontpage.css" />
     <link rel="stylesheet" href="css/frontpage2.css" />
     <link rel="stylesheet" href="css/frontpage3.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
     <link rel="shortcut icon" href="images/logo.ico">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+<!-- sidebar -->
+<div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+  <a href="index.html"><span><i class="material-icons">info</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;home</a><br>
+  <a href="https://docs.google.com/document/d/1rlpN8s7TBbchMQgKTx7ZSXBJJbRmq3w1UGj9ncqOm9c/edit?usp=sharing"><i class="material-icons">spa</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;guidelines</span></a><br>
+  <a href="papers/consenttopublish.pdf"><i class="material-icons">monetization_on</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;agreement form</span></a><br>
+  <a href="mailto: fiatluxjournal@gmail.com"><i class="material-icons">email</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;contact<span></a>
+</div>
+
+<div id="main">
     <!--landing page-->
     <div class="background1">
       <div class="title1">Fiat Lux Journal</div>
@@ -53,7 +63,6 @@
     <div class="hl2"></div>
     <!-- Papers -->
     <div class="background3">
-
       <div class="digitalpublications">
         <div class="title2">
           <button class="publications"><b><h2>Digital Publications</h2></b></button>
@@ -100,18 +109,17 @@
         </div>
       </div>
       
-      <div class= "sidebar">
+      <div class= "sidebar1">
         <a href="https://www.shad.ca/">
         <img src="images/shad.png" alt="research" /> 
       </a>
-        </div>
-      </div>
-      </div>
     </div>
-    </div>
+  </div>
+</div>
      <script src="js/header.js"></script>
      <script src="js/footer.js"></script>
     <script src="js/script.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/sidebar.js"></script>
   </body>
 </html>
