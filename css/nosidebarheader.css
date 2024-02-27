@@ -38,7 +38,11 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .header-logo img {
   height: 100%;
-  margin-left: 5vw;
+}
+
+.header-logo img:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
 }
 
 /* buttons */

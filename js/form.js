@@ -49,7 +49,7 @@ function emailSend() {
     // Read the file as Base64
     reader.readAsDataURL(file);
   } else {
-    // Send email without attachment
+    // Send email
     sendEmail(emailData);
   }
 }

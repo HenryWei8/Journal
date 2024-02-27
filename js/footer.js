@@ -1,4 +1,4 @@
-var headerHTML = `
+var footerHTML = `
 <div class="footer-basic">
 <footer>
 
@@ -17,7 +17,7 @@ var headerHTML = `
 </footer>
     `;
 var template = document.createElement("template");
-template.innerHTML = headerHTML;
+template.innerHTML = footerHTML;
 
 function showContent() {
   let clon = template.content.cloneNode(true);

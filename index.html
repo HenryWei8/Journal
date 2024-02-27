@@ -2,124 +2,151 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fiat Lux Journal</title>
-    <link rel="stylesheet" href="css/indexheader.css" />
+    <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/frontpage.css" />
     <link rel="stylesheet" href="css/frontpage2.css" />
     <link rel="stylesheet" href="css/frontpage3.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/sidebar.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
-    <link rel="shortcut icon" href="images/logo.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="shortcut icon" href="images/logo.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
   <body>
-<!-- sidebar -->
-<div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
-  <a href="index.html"><span><i class="material-icons">home</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;home</a><br>
-  <a href="https://docs.google.com/document/d/1rlpN8s7TBbchMQgKTx7ZSXBJJbRmq3w1UGj9ncqOm9c/edit?usp=sharing"><i class="material-icons">spa</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;guidelines</span></a><br>
-  <a href="papers/consenttopublish.pdf"><i class="material-icons">description</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;agreement form</span></a><br>
-  <a href="mailto: fiatluxjournal@gmail.com"><i class="material-icons">email</i><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;contact<span></a>
-</div>
+    <div id="main">
+      <!--landing page-->
+      <div class="background1">
+        <div class="title1">Fiat Lux Journal</div>
+        <div class="issue">Volume 1 • Issue 1 • February 2024</div>
+        <button class="scrollButton">⌄</button>
+      </div>
 
-<div id="main">
-    <!--landing page-->
-    <div class="background1">
-      <div class="title1">Fiat Lux Journal</div>
-      <div class="issue">Volume 1 • Issue 1 • February 2024</div>
-      <button class="scrollButton">⌄</button>
-    </div>
-  
+      <!--landing page p2-->
+      <div class="background2">
+        <div class="journal">
+          <img src="images/journalpic.png" alt="publication" />
+        </div>
+        <div class="journaldescription">
+          <div class="currentissue1">Current Issue</div>
+          <div class="currentissue2">Volume 1 • Issue 1 • January 2024</div>
+          <div class="buttons">
+            <a href="papers/Final.pdf"
+              ><button class="currentissue">View Current Issue</button></a
+            >
+            <a href="policies.html"
+              ><button class="policies">Publication Policies</button></a
+            >
+          </div>
+          <div class="hl"></div>
+          <div type="description">
+            An open-access, peer-reviewed journal devoted to publishing
+            interdisciplinary research by students. We maintain high academic
+            standards while providing a supportive platform for young
+            researchers. Each submission undergoes a rigorous review process,
+            ensuring robust and credible findings that meaningfully contribute
+            to their respective field.
+          </div>
+        </div>
+        <div class="vl2"></div>
+        <div class="journalstats">
+          <div class="name">Fiat Lux Journal</div>
+          <div class="blacksquare"></div>
+          <div class="issn">
+            <b>ISSN</b>: XXXX-XXXX <br /><br />
+            <b>Frequency</b>: 2 issues per year
+          </div>
+        </div>
+      </div>
+      <div class="hl2"></div>
+      <!-- Papers -->
+      <div class="background3">
+        <div class="digitalpublications">
+          <div class="title2">
+            <button class="publications">
+              <b><h2>Digital Publications</h2></b>
+            </button>
+            <button class="read">
+              <b><h2>Most Read</h2></b>
+            </button>
+            <button class="recent">
+              <b><h2>Most Recent</h2></b>
+            </button>
+          </div>
+          <div class="hl3"></div>
+          <div class="papers">
+            <div class="one">
+              <a class="custom" href="articles/article1.html">
+                <div class="meta">Fiat Lux Journal〡Digital〡Jan 26 2024</div>
+                <div class="title">
+                  Investigating Renewable Energy in the Context of Global
+                  Economic and Social Wellbeing
+                </div>
+                <div class="author">Raymond Wei</div>
+              </a>
+            </div>
+            <div class="two">
+              <a class="custom" href="articles/article2.html">
+                <div class="meta">Fiat Lux Journal〡Digital〡Jan 22 2024</div>
+                <div class="title">
+                  Dynamic Convolutional Networks for 3-Dimensional
+                  Reconstruction
+                </div>
+                <div class="author">Dongcheng Han</div>
+              </a>
+            </div>
+            <div class="three">
+              <a class="custom" href="articles/article3.html">
+                <div class="meta">Fiat Lux Journal〡Digital〡Jan 25 2024</div>
+                <div class="title">
+                  Evaluation of Inconsistent Judgement Criteria in Ad Hoc
+                  Tribunals of Former Yugoslavia
+                </div>
+                <div class="author">Edmund Carr, Miles Boye</div>
+              </a>
+            </div>
+            <div class="four">
+              <a class="custom" href="articles/article4.html">
+                <div class="meta">Fiat Lux Journal〡Digital〡Jan 26 2024</div>
+                <div class="title">
+                  A Satellite Visual Analysis of the Albedo Effect on Glacial
+                  Recession, and its Use as a Predictor of Glacial Lake Changes
+                </div>
+                <div class="author">Jason Huang</div>
+              </a>
+            </div>
+            <div class="five">
+              <a class="custom" href="articles/article5.html">
+                <div class="meta">Fiat Lux Journal〡Digital〡Jan 23 2024</div>
+                <div class="title">
+                  Linguistic Hurdles Shaping Opportunities in the Immigrant
+                  Integration Experience
+                </div>
+                <div class="author">Siddharth Munjal</div>
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <!--landing page p2-->
-    <div class="background2">
-      <div class="journal">
-        <img src="images/journalpic.png" alt = "publication"/>
-      </div>
-      <div class="journaldescription">
-        <div class="currentissue1">Current Issue</div>
-        <div class="currentissue2">Volume 1 • Issue 1 • January 2024</div>
-        <div class="buttons">
-          <a href = "papers/Final.pdf"><button class="currentissue">View Current Issue</button></a>
-            <a href = "policies.html"><button class="policies">Publication Policies</button></a>
-        </div>
-        <div class="hl"></div>
-        <div type="description">
-          An open-access, peer-reviewed journal devoted to publishing interdisciplinary research by students. 
-          We maintain high academic standards while providing a supportive platform for young researchers. Each submission undergoes a rigorous review process, ensuring robust and credible findings that meaningfully contribute to their respective field.
-        </div>
-      </div>
-      <div class="vl2"></div>
-      <div class="journalstats">
-        <div class="name">Fiat Lux Journal</div>
-        <div class="blacksquare"></div>
-        <div class="issn">
-          <b>ISSN</b>: XXXX-XXXX <br /><br />
-          <b>Frequency</b>: 2 issues per year
+        <div class="sidebar1">
+          <a href="https://www.shad.ca/">
+            <img src="images/shad.png" alt="research" />
+          </a>
         </div>
       </div>
     </div>
-    <div class="hl2"></div>
-    <!-- Papers -->
-    <div class="background3">
-      <div class="digitalpublications">
-        <div class="title2">
-          <button class="publications"><b><h2>Digital Publications</h2></b></button>
-          <button class="read"><b><h2>Most Read</h2></b></button>
-          <button class="recent"><b><h2>Most Recent</h2></b></button>
-        </div>
-        <div class="hl3"></div>
-        <div class = "papers">
-          <div class = "one">
-            <a class = "custom" href="articles/article1.html">
-            <div class = "meta">Fiat Lux Journal〡Digital〡Jan 26 2024</div>
-            <div class = "title"> Investigating Renewable Energy in the Context of Global Economic and Social Wellbeing</div>
-            <div class = "author"> Raymond Wei</div>
-            </a>
-          </div>
-          <div class = "two">
-            <a class = "custom" href="articles/article2.html">
-            <div class = "meta">Fiat Lux Journal〡Digital〡Jan 22 2024</div>
-            <div class = "title"> Dynamic Convolutional Networks for 3-Dimensional Reconstruction</div>
-            <div class = "author"> Dongcheng Han</div>
-          </a>
-          </div>
-          <div class = "three">
-            <a class = "custom" href="articles/article3.html">
-            <div class = "meta">Fiat Lux Journal〡Digital〡Jan 25 2024</div>
-            <div class = "title"> Evaluation of Inconsistent Judgement Criteria in Ad Hoc Tribunals of Former Yugoslavia</div>
-            <div class = "author"> Edmund Carr, Miles Boye</div>
-          </a>
-          </div>
-          <div class = "four">
-            <a class = "custom" href="articles/article4.html">
-            <div class = "meta">Fiat Lux Journal〡Digital〡Jan 26 2024</div>
-            <div class = "title"> A Satellite Visual Analysis of the Albedo Effect on Glacial Recession, and its Use as a Predictor of Glacial Lake Changes</div>
-            <div class = "author"> Jason Huang</div>
-          </a>
-          </div>
-          <div class = "five">
-            <a class = "custom" href="articles/article5.html">
-            <div class = "meta">Fiat Lux Journal〡Digital〡Jan 23 2024</div>
-            <div class = "title"> Linguistic Hurdles Shaping Opportunities in the Immigrant Integration Experience</div>
-            <div class = "author"> Siddharth Munjal</div>
-            </a>
-          </div>
-        </div>
-      </div>
-      
-      <div class= "sidebar1">
-        <a href="https://www.shad.ca/">
-        <img src="images/shad.png" alt="research" /> 
-      </a>
-    </div>
-  </div>
-</div>
-     <script src="js/header.js"></script>
-     <script src="js/footer.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/script.js"></script>
     <script src="js/scroll.js"></script>
-    <script src="js/sidebar.js"></script>
+    <script src="js/sd.js"></script>
   </body>
 </html>

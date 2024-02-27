@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/publish.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
     <link rel="icon" type="image/png" href="images/logo.png" alt = "publication">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
@@ -15,6 +20,7 @@
   </head>
   
     <!-- form -->
+    <div id="main">
     <div class="inputform">
       <form class="box" id = "emailForm" onsubmit="emailSend(); reset(); return false;">
         <h1>Contact Us</h1>
@@ -44,10 +50,13 @@
         <input type="submit"></input>
       </form>
     </div>
+    </div>
   
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	  <script src="https://smtpjs.com/v3/smtp.js"> </script>
     <script src="js/script.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/sd.js"></script>
     <script src = "js/form.js"></script>
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
