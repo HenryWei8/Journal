@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publish</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/publish.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" alt = "publication">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+  </head>
+  
+    <!-- form -->
+    <div id="main">
+    <div class="inputform">
+      <form class="box" id = "emailForm" onsubmit="emailSend(); reset(); return false;">
+        <h1>Contact Us</h1>
+        <div>
+          <input type="text" name="pin" placeholder="Paper Identification Number" id = "pin" required />
+        </div>
+        <div>
+          <input type="email" name="email" placeholder="Email" id = "email" required />
+        </div>
+
+        <div>
+          <input type="text" name="comment" placeholder="Comments" id = "comment" />
+        </div>
+
+        <div>
+          <label for="pdfFile" style="color: white; font-size: 1vw;">
+            Manuscript Rough Draft (if you have one):</label
+          >
+          <input type="file" name="pdf_file_input" accept=".pdf" id="pdf_file_input" />
+        </div>
+
+        <input type="submit"></input>
+      </form>
+    </div>
+    </div>
+  
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	  <script src="https://smtpjs.com/v3/smtp.js"> </script>
+    <script src="js/script.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/sd.js"></script>
+    <script src = "js/form.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+  </body>
+</html>
