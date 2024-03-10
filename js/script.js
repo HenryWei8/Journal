@@ -77,14 +77,15 @@ function displayResults(results) {
 
   if (results.length == 0 && query != "") {
     searchResultsList.innerHTML =
-      '<span style="color: white;">No results found.</span>';
+      '<span style="color: white; padding-left: 5vw;">No results found.</span>';
   } else {
     for (const result of results) {
       const listItem = document.createElement("li");
       const link = document.createElement("a");
+      link.style.paddingLeft = "5vw";
       link.textContent = `Title: ${result.title}, Author: ${result.author}`;
-      link.href = result.link; // Set the link's href attribute
-      listItem.appendChild(link); // Add the link to the list item
+      link.href = result.link;
+      listItem.appendChild(link);
       searchResultsList.appendChild(listItem);
     }
   }
