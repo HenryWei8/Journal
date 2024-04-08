@@ -8,7 +8,7 @@ var footerHTML = `
     <li class="list-inline-item"><a href="policies.html">Publication Policies</a></li>
   </ul>
   <div class="social">
-    <a href="#"><i class="icon ion-social-linkedin"></i></a
+    <a href="https://www.linkedin.com/company/fiat-lux-journal/about/?viewAsMember=true"><i class="icon ion-social-linkedin"></i></a
     ><a href="#"><i class="icon ion-social-youtube"></i></a
     ><a href="#"><i class="icon ion-social-twitter"></i></a
     ><a href="#"><i class="icon ion-social-facebook"></i></a>
