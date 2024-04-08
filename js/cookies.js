@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("acceptCookies")
     .addEventListener("click", function () {
+      console.log("check1");
       localStorage.setItem("performanceCookiesConsent", "true");
       document.getElementById("banner").style.display = "none";
       loadPerformanceCookies();
