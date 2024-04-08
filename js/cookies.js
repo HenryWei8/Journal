@@ -1,16 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var consentGiven = localStorage.getItem("performanceCookiesConsent");
+  try {
+    var consentGiven = localStorage.getItem("performanceCookiesConsent");
 
-  if (consentGiven === null) {
-    document.getElementById("banner").style.display = "block";
-  } else if (consentGiven === "true") {
-    loadPerformanceCookies();
+    if (consentGiven === null) {
+      document.getElementById("banner").style.display = "block";
+    } else if (consentGiven === "true") {
+      loadPerformanceCookies();
+    }
+  } catch (e) {
+    console.error("Error accessing localStorage", e);
+    document.getElementById("banner").style.display = "none";
   }
-
   document
     .getElementById("acceptCookies")
     .addEventListener("click", function () {
-      console.log("check1");
       localStorage.setItem("performanceCookiesConsent", "true");
       document.getElementById("banner").style.display = "none";
       loadPerformanceCookies();
