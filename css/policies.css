@@ -8,8 +8,8 @@ body {
   height: 70vw;
   align-items: center;
   text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 50vh;
+  margin-top: 20vh;
+  margin-bottom: 40vh;
 }
 .tilesWrap li {
   display: inline-block;
