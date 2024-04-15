@@ -53,6 +53,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vw;
+  margin-bottom: 35vh;
   overflow: auto;
 }
 .container {
