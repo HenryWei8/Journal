@@ -13,8 +13,8 @@
   flex-direction: column;
   background: linear-gradient(20deg, rgb(65, 65, 65), black);
   font-size: 1.5vh;
-  width: 80vw;
-  height: 85vh;
+  width: 70vw;
+  height: 88vh;
   border-radius: 2%;
   display: flex;
 }
