@@ -8,7 +8,7 @@ var headerHTML = `
           </div>
           <div class="header-buttons">
             <a href="publish.html">
-              <button class="publish">CONTACT US</button>
+              <button class="publish">SUBMIT MANUSCRIPT</button>
             </a>
             <a href="about.html">
               <button class="about">ABOUT US</button>

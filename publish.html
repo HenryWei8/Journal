@@ -23,7 +23,7 @@
     <div id="main">
     <div class="inputform">
       <form class="box" id = "emailForm" onsubmit="emailSend(); reset(); return false;">
-        <h1>Contact Us</h1>
+        <h1>Submit Manuscript</h1>
         <div>
           <input type="text" name="first_name" placeholder="First Name" id = "first_name" required />
         </div>
@@ -37,14 +37,14 @@
         </div>
 
         <div>
-          <input type="text" name="comment" placeholder="Comments" id = "comment" />
+          <input type="text" name="comment" placeholder="Paper Identification #" id = "comment" required/>
         </div>
 
         <div>
           <label for="pdfFile" style="color: white; font-size: 1vw;">
-            Manuscript Rough Draft (if you have one):</label
+            Manuscript Draft (pdf):</label
           >
-          <input type="file" name="pdf_file_input" accept=".pdf" id="pdf_file_input" />
+          <input type="file" name="pdf_file_input" accept=".pdf" id="pdf_file_input" required/>
         </div>
 
         <input type="submit"></input>
